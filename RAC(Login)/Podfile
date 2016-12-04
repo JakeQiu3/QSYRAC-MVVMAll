@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'Reactive Login' do
+   pod 'ReactiveCocoa', '~> 4.2.1'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'JVFloatLabeledTextField', '~> 1.1.1'
+pod 'SVProgressHUD', '~> 2.0.3'
+
+end

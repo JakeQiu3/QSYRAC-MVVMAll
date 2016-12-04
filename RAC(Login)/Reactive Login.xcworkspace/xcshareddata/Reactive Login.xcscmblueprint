@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "25180939C0B1DEA99C0AA77BAF8AAB181146CA97",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "25180939C0B1DEA99C0AA77BAF8AAB181146CA97" : 0,
+    "87C21C512922A3E11DC040D5161F88C2D68C54C3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F54C47CC-B5D6-4275-9B90-D0C1225EB984",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "25180939C0B1DEA99C0AA77BAF8AAB181146CA97" : "RpSecond(Login)\/",
+    "87C21C512922A3E11DC040D5161F88C2D68C54C3" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Reactive Login",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Reactive Login.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JakeQiu3\/RpSecond.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "25180939C0B1DEA99C0AA77BAF8AAB181146CA97"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JakeQiu3\/RPAll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87C21C512922A3E11DC040D5161F88C2D68C54C3"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+use_frameworks!
+#use_frameworks!个别需要用到它，比如ReactiveCocoa
+target 'RpFirst' do
+  pod 'ReactiveCocoa', '~> 4.2.2'
+  pod 'AFNetworking', '~> 3.1'
+  pod 'SVProgressHUD', '~> 2.0.3'
+  pod 'MLeaksFinder', '~> 0.2.0'
+end

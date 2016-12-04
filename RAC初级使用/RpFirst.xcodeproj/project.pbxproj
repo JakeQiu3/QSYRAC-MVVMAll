@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7320C66C1D76BA1700290AD4 /* 1156719-245a898374fcc8c7-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7320C66B1D76BA1700290AD4 /* 1156719-245a898374fcc8c7-2.png */; };
+		7320C66E1D76BA8200290AD4 /* 1156719-a270eb8904562dc0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7320C66D1D76BA8200290AD4 /* 1156719-a270eb8904562dc0.png */; };
+		7320C6751D76DB3F00290AD4 /* Reacocoa的配置必备.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7320C6741D76DB3F00290AD4 /* Reacocoa的配置必备.xml */; };
+		7333A0F11D74539B009FAE81 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333A0F01D74539B009FAE81 /* Student.m */; };
+		733907431D73DE48004DFA22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733907421D73DE48004DFA22 /* main.m */; };
+		733907461D73DE48004DFA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733907451D73DE48004DFA22 /* AppDelegate.m */; };
+		733907491D73DE48004DFA22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733907481D73DE48004DFA22 /* ViewController.m */; };
+		7339074C1D73DE48004DFA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7339074A1D73DE48004DFA22 /* Main.storyboard */; };
+		7339074E1D73DE48004DFA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7339074D1D73DE48004DFA22 /* Assets.xcassets */; };
+		733907511D73DE48004DFA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7339074F1D73DE48004DFA22 /* LaunchScreen.storyboard */; };
+		7339075A1D73DE6D004DFA22 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 733907591D73DE6D004DFA22 /* Person.m */; };
+		A44F2215105FF103F5194890 /* Pods_RpFirst.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A977F57D57199C08CF806D /* Pods_RpFirst.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7320C66B1D76BA1700290AD4 /* 1156719-245a898374fcc8c7-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1156719-245a898374fcc8c7-2.png"; sourceTree = "<group>"; };
+		7320C66D1D76BA8200290AD4 /* 1156719-a270eb8904562dc0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1156719-a270eb8904562dc0.png"; sourceTree = "<group>"; };
+		7320C66F1D76C86200290AD4 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/RpFirst-dvkwwvvcazwzpjdwmfufmjsbjwrf/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		7320C6721D76CC6500290AD4 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../Library/Developer/Xcode/DerivedData/RpFirst-dvkwwvvcazwzpjdwmfufmjsbjwrf/Build/Products/Debug-iphonesimulator/Result/Result.framework"; sourceTree = "<group>"; };
+		7320C6741D76DB3F00290AD4 /* Reacocoa的配置必备.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Reacocoa的配置必备.xml"; sourceTree = "<group>"; };
+		7333A0EF1D74539B009FAE81 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		7333A0F01D74539B009FAE81 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		7339073E1D73DE48004DFA22 /* RpFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RpFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		733907421D73DE48004DFA22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		733907441D73DE48004DFA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		733907451D73DE48004DFA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		733907471D73DE48004DFA22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		733907481D73DE48004DFA22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7339074B1D73DE48004DFA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7339074D1D73DE48004DFA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		733907501D73DE48004DFA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		733907521D73DE48004DFA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		733907581D73DE6D004DFA22 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		733907591D73DE6D004DFA22 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		735E5B7E1DAB88DA000F6E84 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/RpFirst-gnumutnnfpopladhewslzaaucwio/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		735E5B801DAB88FC000F6E84 /* Pods_RpFirst.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_RpFirst.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/RpFirst-gnumutnnfpopladhewslzaaucwio/Build/Products/Debug-iphonesimulator/Pods_RpFirst.framework"; sourceTree = "<group>"; };
+		79A977F57D57199C08CF806D /* Pods_RpFirst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RpFirst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD67B6A25BD9B70AC71CE779 /* Pods-RpFirst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RpFirst.release.xcconfig"; path = "Pods/Target Support Files/Pods-RpFirst/Pods-RpFirst.release.xcconfig"; sourceTree = "<group>"; };
+		ED6FDE739BC9D1384760647D /* Pods-RpFirst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RpFirst.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RpFirst/Pods-RpFirst.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7339073B1D73DE48004DFA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44F2215105FF103F5194890 /* Pods_RpFirst.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E42EFED757EC0FEAEEDA14D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735E5B801DAB88FC000F6E84 /* Pods_RpFirst.framework */,
+				735E5B7E1DAB88DA000F6E84 /* ReactiveCocoa.framework */,
+				7320C6721D76CC6500290AD4 /* Result.framework */,
+				7320C66F1D76C86200290AD4 /* ReactiveCocoa.framework */,
+				79A977F57D57199C08CF806D /* Pods_RpFirst.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F37C4D312B45B2CD3412A3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FDE739BC9D1384760647D /* Pods-RpFirst.debug.xcconfig */,
+				DD67B6A25BD9B70AC71CE779 /* Pods-RpFirst.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		733907351D73DE48004DFA22 = {
+			isa = PBXGroup;
+			children = (
+				733907401D73DE48004DFA22 /* RpFirst */,
+				7339073F1D73DE48004DFA22 /* Products */,
+				6F37C4D312B45B2CD3412A3D /* Pods */,
+				5E42EFED757EC0FEAEEDA14D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7339073F1D73DE48004DFA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7339073E1D73DE48004DFA22 /* RpFirst.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		733907401D73DE48004DFA22 /* RpFirst */ = {
+			isa = PBXGroup;
+			children = (
+				733907441D73DE48004DFA22 /* AppDelegate.h */,
+				733907451D73DE48004DFA22 /* AppDelegate.m */,
+				733907471D73DE48004DFA22 /* ViewController.h */,
+				733907481D73DE48004DFA22 /* ViewController.m */,
+				733907581D73DE6D004DFA22 /* Person.h */,
+				733907591D73DE6D004DFA22 /* Person.m */,
+				7333A0EF1D74539B009FAE81 /* Student.h */,
+				7333A0F01D74539B009FAE81 /* Student.m */,
+				7320C6741D76DB3F00290AD4 /* Reacocoa的配置必备.xml */,
+				7320C66B1D76BA1700290AD4 /* 1156719-245a898374fcc8c7-2.png */,
+				7320C66D1D76BA8200290AD4 /* 1156719-a270eb8904562dc0.png */,
+				733907411D73DE48004DFA22 /* Supporting Files */,
+			);
+			path = RpFirst;
+			sourceTree = "<group>";
+		};
+		733907411D73DE48004DFA22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				733907521D73DE48004DFA22 /* Info.plist */,
+				7339074D1D73DE48004DFA22 /* Assets.xcassets */,
+				7339074F1D73DE48004DFA22 /* LaunchScreen.storyboard */,
+				7339074A1D73DE48004DFA22 /* Main.storyboard */,
+				733907421D73DE48004DFA22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7339073D1D73DE48004DFA22 /* RpFirst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733907551D73DE48004DFA22 /* Build configuration list for PBXNativeTarget "RpFirst" */;
+			buildPhases = (
+				C13AF69C6C33F560F24E4540 /* [CP] Check Pods Manifest.lock */,
+				7339073A1D73DE48004DFA22 /* Sources */,
+				7339073C1D73DE48004DFA22 /* Resources */,
+				7339073B1D73DE48004DFA22 /* Frameworks */,
+				D1B319C936C51FD104033748 /* [CP] Embed Pods Frameworks */,
+				4FEA9EDF55CA644D556E1727 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RpFirst;
+			productName = RpFirst;
+			productReference = 7339073E1D73DE48004DFA22 /* RpFirst.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		733907361D73DE48004DFA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QSY;
+				TargetAttributes = {
+					7339073D1D73DE48004DFA22 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 733907391D73DE48004DFA22 /* Build configuration list for PBXProject "RpFirst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 733907351D73DE48004DFA22;
+			productRefGroup = 7339073F1D73DE48004DFA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7339073D1D73DE48004DFA22 /* RpFirst */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7339073C1D73DE48004DFA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7320C66C1D76BA1700290AD4 /* 1156719-245a898374fcc8c7-2.png in Resources */,
+				733907511D73DE48004DFA22 /* LaunchScreen.storyboard in Resources */,
+				7339074E1D73DE48004DFA22 /* Assets.xcassets in Resources */,
+				7320C6751D76DB3F00290AD4 /* Reacocoa的配置必备.xml in Resources */,
+				7339074C1D73DE48004DFA22 /* Main.storyboard in Resources */,
+				7320C66E1D76BA8200290AD4 /* 1156719-a270eb8904562dc0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FEA9EDF55CA644D556E1727 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RpFirst/Pods-RpFirst-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13AF69C6C33F560F24E4540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B319C936C51FD104033748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RpFirst/Pods-RpFirst-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7339073A1D73DE48004DFA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733907491D73DE48004DFA22 /* ViewController.m in Sources */,
+				733907461D73DE48004DFA22 /* AppDelegate.m in Sources */,
+				7333A0F11D74539B009FAE81 /* Student.m in Sources */,
+				7339075A1D73DE6D004DFA22 /* Person.m in Sources */,
+				733907431D73DE48004DFA22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7339074A1D73DE48004DFA22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7339074B1D73DE48004DFA22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7339074F1D73DE48004DFA22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733907501D73DE48004DFA22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		733907531D73DE48004DFA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		733907541D73DE48004DFA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		733907561D73DE48004DFA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6FDE739BC9D1384760647D /* Pods-RpFirst.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RpFirst",
+					"$(PROJECT_DIR)",
+					/Users/qiushaoyi/Desktop/RPAll/RpFirst/RpFirst/ReactiveCocoa,
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RpFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7lekang.RpFirst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		733907571D73DE48004DFA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD67B6A25BD9B70AC71CE779 /* Pods-RpFirst.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RpFirst",
+					"$(PROJECT_DIR)",
+					/Users/qiushaoyi/Desktop/RPAll/RpFirst/RpFirst/ReactiveCocoa,
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RpFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7lekang.RpFirst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		733907391D73DE48004DFA22 /* Build configuration list for PBXProject "RpFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733907531D73DE48004DFA22 /* Debug */,
+				733907541D73DE48004DFA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733907551D73DE48004DFA22 /* Build configuration list for PBXNativeTarget "RpFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733907561D73DE48004DFA22 /* Debug */,
+				733907571D73DE48004DFA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 733907361D73DE48004DFA22 /* Project object */;
+}

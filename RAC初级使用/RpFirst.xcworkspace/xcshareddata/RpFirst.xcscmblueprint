@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20A1D259E6C2EC22EE7CCDAF3CAD65BDF37A23C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20A1D259E6C2EC22EE7CCDAF3CAD65BDF37A23C9" : 9223372036854775807,
+    "87C21C512922A3E11DC040D5161F88C2D68C54C3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E2135CEB-CCCC-4539-A545-A3CC25AB55FA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20A1D259E6C2EC22EE7CCDAF3CAD65BDF37A23C9" : "RAC%E5%88%9D%E7%BA%A7%E4%BD%BF%E7%94%A8\/",
+    "87C21C512922A3E11DC040D5161F88C2D68C54C3" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RpFirst",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RpFirst.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JakeQiu3\/RpFirst.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20A1D259E6C2EC22EE7CCDAF3CAD65BDF37A23C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JakeQiu3\/RPAll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87C21C512922A3E11DC040D5161F88C2D68C54C3"
+    }
+  ]
+}
