@@ -16,9 +16,11 @@
 		30D89E3F1DF4573E004E0BD7 /* RequestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D89E391DF4573E004E0BD7 /* RequestDetailViewController.m */; };
 		30D89E401DF4573E004E0BD7 /* RequestNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D89E3B1DF4573E004E0BD7 /* RequestNetViewController.m */; };
 		30D89E411DF4573E004E0BD7 /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D89E3D1DF4573E004E0BD7 /* RequestViewModel.m */; };
+		36EC454D7637D02FD284E8B2 /* Pods_RACDoubanRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1767C6DFCDE0442FDE2E9B19 /* Pods_RACDoubanRequest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1767C6DFCDE0442FDE2E9B19 /* Pods_RACDoubanRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACDoubanRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C85E561DF452F20018851C /* RACDoubanRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACDoubanRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C85E5A1DF452F20018851C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30C85E5C1DF452F20018851C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +37,8 @@
 		30D89E3B1DF4573E004E0BD7 /* RequestNetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestNetViewController.m; sourceTree = "<group>"; };
 		30D89E3C1DF4573E004E0BD7 /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
 		30D89E3D1DF4573E004E0BD7 /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		789C6DE4BC8B282D230163D9 /* Pods-RACDoubanRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDoubanRequest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDoubanRequest/Pods-RACDoubanRequest.release.xcconfig"; sourceTree = "<group>"; };
+		C25A6D37CB52FD6EE3F4C14C /* Pods-RACDoubanRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDoubanRequest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDoubanRequest/Pods-RACDoubanRequest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +46,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EC454D7637D02FD284E8B2 /* Pods_RACDoubanRequest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A52ADA80DBBC0DDB4D324C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1767C6DFCDE0442FDE2E9B19 /* Pods_RACDoubanRequest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30C85E4D1DF452F20018851C = {
 			isa = PBXGroup;
 			children = (
 				30C85E581DF452F20018851C /* RACDoubanRequest */,
 				30C85E571DF452F20018851C /* Products */,
+				E4B0E817A1C049200D4F405C /* Pods */,
+				2A52ADA80DBBC0DDB4D324C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +109,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E4B0E817A1C049200D4F405C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C25A6D37CB52FD6EE3F4C14C /* Pods-RACDoubanRequest.debug.xcconfig */,
+				789C6DE4BC8B282D230163D9 /* Pods-RACDoubanRequest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30C85E6D1DF452F20018851C /* Build configuration list for PBXNativeTarget "RACDoubanRequest" */;
 			buildPhases = (
+				54CBA14B54306134B4DE89E5 /* [CP] Check Pods Manifest.lock */,
 				30C85E521DF452F20018851C /* Sources */,
 				30C85E531DF452F20018851C /* Frameworks */,
 				30C85E541DF452F20018851C /* Resources */,
+				E0D7894CD0DF70A87CA100D8 /* [CP] Embed Pods Frameworks */,
+				963C22850226C2A8193FEC80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +186,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54CBA14B54306134B4DE89E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		963C22850226C2A8193FEC80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDoubanRequest/Pods-RACDoubanRequest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D7894CD0DF70A87CA100D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDoubanRequest/Pods-RACDoubanRequest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30C85E521DF452F20018851C /* Sources */ = {
@@ -288,6 +363,7 @@
 		};
 		30C85E6E1DF452F20018851C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25A6D37CB52FD6EE3F4C14C /* Pods-RACDoubanRequest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RACDoubanRequest/Info.plist;
@@ -295,11 +371,13 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qsy.RACDoubanRequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		30C85E6F1DF452F20018851C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789C6DE4BC8B282D230163D9 /* Pods-RACDoubanRequest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RACDoubanRequest/Info.plist;
@@ -307,6 +385,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qsy.RACDoubanRequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};

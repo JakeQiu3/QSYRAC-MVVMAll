@@ -19,17 +19,18 @@ static NSString *const cellIdentifier = @"cell";
 
 - (void)initialBind {
     _reuqesCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
-//    创建一个新的信号
+        //    创建一个新的信号
         RACSignal *requestSignal = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
             NSMutableDictionary *parameters = [[NSMutableDictionary alloc] init];
             parameters[@"q"] = @"基础";
-            
-            [[AFHTTPRequestOperationManager manager] GET:@"https://api.douban.com/v2/book/search" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            [[AFHTTPSessionManager manager]GET:@"https://api.douban.com/v2/book/search" parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+                
+            } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                 NSLog(@"打印返回的结果%@",responseObject);
                 [subscriber sendNext:responseObject];
                 [subscriber sendCompleted];
-            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                [SVProgressHUD showErrorWithStatus:@"网络加载出错" maskType:SVProgressHUDMaskTypeNone];
+            } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                [SVProgressHUD showInfoWithStatus:@"网络加载出错"];
             }];
             return nil;
         }];

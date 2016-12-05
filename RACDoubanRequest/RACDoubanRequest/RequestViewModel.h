@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "ReactiveCocoa.h"
-#import "AFHTTPRequestOperationManager.h"
+#import "AFHTTPSessionManager.h"
 #import "Book.h"
 #import "SVProgressHUD.h"
 
