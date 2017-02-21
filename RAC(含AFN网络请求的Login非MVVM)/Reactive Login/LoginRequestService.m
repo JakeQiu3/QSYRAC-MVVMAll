@@ -71,7 +71,8 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     // 4.下载任务
     NSURLSessionDownloadTask *task = [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
-        // 下载进度
+        // 下载进度：
+        // http://doc.okbase.net/conslee/archive/126370.html 获取到对应的某时间的下载速度
         NSLog(@"当前下载进度为:%lf", 1.0 * downloadProgress.completedUnitCount / downloadProgress.totalUnitCount);
     } destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
         // 下载地址
