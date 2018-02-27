@@ -45,7 +45,7 @@
     tableView.dataSource=tableViewDataSource;
     tableView.delegate=tableViewDelegate;
     tableViewModel=[[TableViewModel alloc] init];
-    totalSource=0;
+//    totalSource = @{}.mutableCopy ;
     
 //    YiRefreshHeader  头部刷新按钮的使用
     refreshHeader=[[YiRefreshHeader alloc] init];
