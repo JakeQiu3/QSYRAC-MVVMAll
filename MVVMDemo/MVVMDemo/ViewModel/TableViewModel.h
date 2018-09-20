@@ -1,7 +1,7 @@
 //
 //  TableViewModel.h
 //  MVVMDemo
-//
+//  网络加载的vm
 //  Created by qsy on 15/6/28.
 //  Copyright (c) 2015年 apple. All rights reserved.
 //
@@ -16,5 +16,6 @@ typedef void (^callback) (NSArray *array);
 - (void)headerRefreshRequestWithCallback:(callback)callback;
 //tableView底部刷新的网络请求
 - (void)footerRefreshRequestWithCallback:(callback)callback;
+
 
 @end

@@ -45,7 +45,7 @@
     tableView.dataSource=tableViewDataSource;
     tableView.delegate=tableViewDelegate;
     tableViewModel=[[TableViewModel alloc] init];
-    totalSource=0;
+    totalSource=[NSMutableArray new];
     
 //    YiRefreshHeader  头部刷新按钮的使用
     refreshHeader=[[YiRefreshHeader alloc] init];
@@ -72,8 +72,7 @@
     
 }
 
-- (void)headerRefreshAction
-{
+- (void)headerRefreshAction {
    
     [tableViewModel headerRefreshRequestWithCallback:^(NSArray *array){
         totalSource=(NSMutableArray *)array;
@@ -85,8 +84,7 @@
 
 }
 
-- (void)footerRefreshAction
-{
+- (void)footerRefreshAction {
     [tableViewModel footerRefreshRequestWithCallback:^(NSArray *array){
         [totalSource addObjectsFromArray:array] ;
         tableViewDataSource.array=totalSource;
@@ -95,7 +93,6 @@
         [tableView reloadData];
     
     }];
-  
 }
 
 - (void)didReceiveMemoryWarning
